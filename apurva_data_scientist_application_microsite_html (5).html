@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Apurva Ravikar Chavan — Data Scientist</title>
+  <meta name="description" content="Apurva Ravikar Chavan — Data Scientist & ML Engineer. Portfolio, highlights, and tailored note for recruiters." />
+  <style>
+    :root{
+      --bg:#0b0f14; --card:#121826; --ink:#e6edf3; --muted:#9fb1c7; --accent:#66e0a3; --pill:#1d2a3a; --border:#223146;
+    }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji";}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:1100px;margin:0 auto;padding:24px}
+    header{display:grid;grid-template-columns:1fr;gap:16px;padding:28px;border-radius:20px;background:linear-gradient(180deg,rgba(102,224,163,.12),transparent 35%),var(--card);border:1px solid var(--border)}
+    .title{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+    .avatar{width:72px;height:72px;border-radius:16px;background:#162336;display:grid;place-items:center;font-weight:700;color:var(--accent);border:1px solid var(--border)}
+    h1{font-size:28px;line-height:1.2;margin:0}
+    .tagline{color:var(--muted);margin:4px 0 0}
+    .chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+    .chip{background:var(--pill);color:#cfe6ff;border:1px solid var(--border);padding:6px 10px;border-radius:999px;font-size:12px}
+    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px}
+    .btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#0a0f14;border:none;border-radius:12px;padding:10px 14px;font-weight:700}
+    .btn.secondary{background:transparent;color:var(--ink);border:1px solid var(--border)}
+    .grid{display:grid;gap:16px;margin-top:24px}
+    .cols-3{grid-template-columns:repeat(3,1fr)}
+    .cols-2{grid-template-columns:repeat(2,1fr)}
+    @media (max-width:900px){.cols-3{grid-template-columns:1fr}.cols-2{grid-template-columns:1fr}}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px}
+    .card h3{margin:0 0 6px;font-size:18px}
+    .meta{color:var(--muted);font-size:13px;margin:0 0 8px}
+    ul{margin:8px 0 0 18px}
+    li{margin:6px 0}
+    .pill{display:inline-block;margin:4px 6px 0 0;padding:6px 10px;background:var(--pill);border:1px solid var(--border);border-radius:999px;font-size:12px;color:#cfe6ff}
+    .section-title{font-size:20px;margin:28px 0 10px}
+    .note{white-space:pre-wrap;background:#0e1522;border:1px dashed var(--border);padding:12px;border-radius:12px;color:#cfe6ff}
+    footer{color:var(--muted);font-size:12px;margin:28px auto;padding:16px 0;border-top:1px solid var(--border);}
+    .kpis{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+    .kpi{background:var(--pill);border:1px solid var(--border);border-radius:12px;padding:10px 12px}
+    .kpi b{display:block;font-size:18px;color:var(--ink)}
+
+    /* Print-friendly */
+    @media print{
+      .btn,.cta{display:none !important}
+      a{text-decoration:underline}
+      header{box-shadow:none}
+      .card{page-break-inside:avoid}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="title">
+        <div class="avatar">AC</div>
+        <div>
+          <h1>Apurva Ravikar Chavan</h1>
+          <p class="tagline">Data Scientist & ML Engineer • 3+ years • End‑to‑end ML, MLOps, and decision intelligence</p>
+          <div class="chips">
+            <span class="chip">Python · PyTorch · scikit‑learn</span>
+            <span class="chip">SQL · Spark</span>
+            <span class="chip">AWS · Docker</span>
+            <span class="chip">Time‑series · NLP</span>
+          </div>
+          <div class="cta">
+            <a class="btn" href="mailto:apurvachavan125@gmail.com">Email Me</a>
+            <a class="btn secondary" href="tel:+12034104412">Call: (203) 410‑4412</a>
+            <a class="btn secondary" href="https://www.linkedin.com/in/apurvachavan125/" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn secondary" href="https://github.com/Apurva1205" target="_blank" rel="noopener">GitHub</a>
+            <button class="btn" onclick="window.print()">Download as PDF</button>
+          </div>
+        </div>
+      </div>
+      <div class="kpis">
+        <div class="kpi"><b>25%↓</b> Cloud inference cost cut with container tuning</div>
+        <div class="kpi"><b>Production</b> PyTorch models with CI/CD & monitoring</div>
+        <div class="kpi"><b>Stakeholder‑ready</b> KPI notebooks & dashboards</div>
+      </div>
+    </header>
+
+    <h2 class="section-title">Idea Pitch — How I Can Help Your Team</h2>
+    <div class="grid cols-3">
+      <div class="card">
+        <h3>First 30 Days: Quick Wins</h3>
+        <ul>
+          <li>Set up a lightweight <b>model evaluation harness</b> (offline + shadow) with clear, trustworthy metrics.</li>
+          <li><b>Stabilize data</b>: dbt checks, freshness tests, contract schemas; remove flaky pipelines.</li>
+          <li><b>Cut inference cost/latency</b> via batching, quantization, caching, and container tuning.</li>
+          <li>Instrument <b>experiment telemetry</b> (A/B) and ship one high‑leverage improvement.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Days 30–90: Scale & Impact</h3>
+        <ul>
+          <li>Productionize a <b>RAG/LLM feature</b> with guardrails, evals, and red‑teaming workflow.</li>
+          <li>Build a <b>feature store</b> + monitoring (drift, performance, cost) and on‑call dashboards.</li>
+          <li>Own a <b>priority KPI</b> (e.g., retention, risk loss, unit cost) and drive measurable deltas.</li>
+          <li>Author <b>design docs/ADRs</b> so the system is maintainable beyond one person.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Mini‑Projects Tailored to You</h3>
+        <ul>
+          <li><b>Fintech</b>: real‑time risk features; collections uplift; LTV/churn models; limits optimization.</li>
+          <li><b>Consumer</b>: subscription/bill detection; pricing tests; recommendation/ranking improvements.</li>
+          <li><b>Health</b>: LLM evals for clinical notes; PHI‑safe pipelines; retrieval QA with audit trails.</li>
+        </ul>
+        <p class="meta">Have a problem brief? I can scope a 2‑week prototype with success metrics.</p>
+      </div>
+    </div>
+
+    <h2 class="section-title">Education & Publications</h2>
+    <div class="grid cols-2">
+      <div class="card">
+        <h3>M.S. Data Science — University of New Haven</h3>
+        <p class="meta">Aug 2023 – May 2025 · Deep Learning, AI Systems, Big Data, Viz, Stats</p>
+      </div>
+      <div class="card">
+        <h3>B.E. Information Technology — University of Mumbai</h3>
+        <p class="meta">Sept 2016 – Jun 2021 · DS, DBMS, OS, ML</p>
+      </div>
+      <div class="card">
+        <h3>Publication</h3>
+        <p>SMART MIRROR 2.0 — Touch‑free reflective interaction. JETIR (Oct 2021)</p>
+      </div>
+    </div>
+
+        <h2 class="section-title">Experience</h2>
+    <div class="grid cols-3">
+      <div class="card">
+        <h3>ML Engineer — Projects & Research</h3>
+        <p class="meta">2023–2025 · University & Industry projects</p>
+        <ul>
+          <li>Built NLP/RAG systems with LangChain/LlamaIndex + vector DBs; designed eval harnesses and prompt/finetune loops.</li>
+          <li>Productionized PyTorch models on AWS (Docker, CI/CD, monitoring) with cost/perf tuning.</li>
+          <li>Shipped data products end‑to‑end: data quality → features → A/B tests → dashboards.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Software/ML Engineer — Real‑time Systems</h3>
+        <p class="meta">2024–2025</p>
+        <ul>
+          <li>Designed modular gameplay backend (Flask + Socket.IO) with clean APIs and observability.</li>
+          <li>Implemented entropy‑driven decision logic via Flowise; collaborated across React Native & Node services.</li>
+          <li>Maintained robust CI, schema contracts, and load/perf tooling.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Data Science — Analytics & Experimentation</h3>
+        <p class="meta">2022–2024</p>
+        <ul>
+          <li>Delivered churn/LTV models, uplift experiments, and pricing/forecasting analyses.</li>
+          <li>Built ELT with dbt/Airflow/Spark and feature stores; enforced reproducible metrics.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2 class="section-title">Selected Projects</h2>
+    <div class="grid cols-3">
+      <div class="card">
+        <h3>AI Resume Enhancer</h3>
+        <p class="meta">RAG · Embeddings · Streamlit</p>
+        <ul>
+          <li>Automatic skill injection, similarity scoring, and gap reports.</li>
+          <li>Batch pipeline + dashboard; optional Bedrock/OSS LLMs.</li>
+        </ul>
+        <a href="https://github.com/Apurva1205/AI-Resume-Enhancer" target="_blank" rel="noopener">GitHub →</a>
+      </div>
+      <div class="card">
+        <h3>Real‑Time Urban Segmentation</h3>
+        <p class="meta">SegFormer · Cityscapes · mIoU</p>
+        <ul>
+          <li>Optimized inference for real‑time overlays; strong mIoU on urban classes.</li>
+          <li>Training/val curves with repeatable config & CSV logs.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>EN↔BE Translator (Low‑Resource)</h3>
+        <p class="meta">BERT + GPT‑2 · 1k pairs</p>
+        <ul>
+          <li>Few‑shot alignment with tiny parallel set; metrics & error analysis.</li>
+          <li>Exported tokenizer/model to HF‑style artifacts.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2 class="section-title">Skills</h2>
+    <div class="card">
+      <div class="chips">
+        <span class="chip">Python</span>
+        <span class="chip">PyTorch</span>
+        <span class="chip">scikit‑learn</span>
+        <span class="chip">SQL</span>
+        <span class="chip">dbt</span>
+        <span class="chip">Airflow</span>
+        <span class="chip">Spark</span>
+        <span class="chip">AWS</span>
+        <span class="chip">Docker</span>
+        <span class="chip">LangChain</span>
+        <span class="chip">LlamaIndex</span>
+        <span class="chip">Vector DBs</span>
+        <span class="chip">Bedrock</span>
+        <span class="chip">MLOps · CI/CD</span>
+        <span class="chip">A/B Testing</span>
+      </div>
+    </div>
+
+  <footer>
+      Built by Apurva • Updated Oct 30, 2025 • <a href="mailto:apurvachavan125@gmail.com">apurvachavan125@gmail.com</a>
+    </footer>
+  </div>
+
+  
+</body>
+</html>
